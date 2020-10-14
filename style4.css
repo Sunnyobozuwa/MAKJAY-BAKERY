@@ -1,0 +1,106 @@
+.body {
+    padding: 0;
+    margin: 0;
+}
+
+.icon {
+    color: rgba(0, 128, 0, 0.76);
+    font-size: 100px;
+    padding-top: 1%;
+    text-align: center;
+}
+
+.icon:hover {
+    color: rgb(216, 105, 129);
+    font-size: 110px;
+}
+
+#p1 {
+    text-align: center;
+    font-size: 40px;
+    padding-top: -3%;
+}
+
+.contact1 {
+    display: flex;
+}
+
+.icon2 {
+    flex: 1;
+    text-align: center;
+    font-size: 150px;
+    margin-left: 1%;
+}
+
+.icon2:hover {
+    font-size: 160px;
+    color: blue;
+}
+
+.icon3 {
+    flex: 1;
+    text-align: center;
+    font-size: 150px;
+    margin-left: -70%;
+    color: green;
+}
+
+.icon3:hover {
+    font-size: 160px;
+    color: green;
+}
+
+.contact2 {
+    display: flex;
+}
+
+.icon4 {
+    flex: 1;
+    text-align: center;
+    font-size: 150px;
+    margin-left: 1%;
+}
+
+.icon4:hover {
+    font-size: 160px;
+    color: orangered;
+}
+
+.icon5 {
+    flex: 1;
+    text-align: center;
+    font-size: 150px;
+    margin-left: -70%;
+    color: red;
+}
+
+.icon5:hover {
+    font-size: 160px;
+    color: red;
+}
+
+.fa.fa-instagram {
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+    background: -webkit-radial-gradient(circle at 30% 107% #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.fa-facebook-square {
+    color: blue;
+    background-color: #fff;
+}
+
+.fa-whatsapp {
+    color: #fff;
+    background: linear-gradient(#25d366, #25d366)10px 84%/10px 15px no-repeat, radial-gradient(#25d366 57%, transparent 0);
+}
+
+.fa-google-plus {
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
